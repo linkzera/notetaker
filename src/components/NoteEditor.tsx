@@ -26,7 +26,7 @@ export const NoteEditor = ({
         </h2>
         <CodeMirror
           value={code}
-          width="500px"
+          width="50vw"
           height="30vh"
           minWidth="100%"
           minHeight="30vh"
@@ -37,7 +37,7 @@ export const NoteEditor = ({
           className="border border-gray-300"
         />
       </div>
-      <div className="card-actions justify-end">
+      <div className="card-actions justify-end mb-2 mr-8">
         <button
           onClick={() => {
             onSave({
